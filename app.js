@@ -8,7 +8,7 @@ const blogRoutes = require('./routes/blogRoutes');
 
 // const { result } = require('lodash');
 
-const dbURI = 'mongodb+srv://amitray1608:amitray1608@amit.11gsz.mongodb.net/database?retryWrites=true&w=majority'
+const dbURI = 'mongodb+srv://clustername:password@amit.11gsz.mongodb.net/database?retryWrites=true&w=majority'
 //register
 
 mongoose.connect(dbURI, {useNewUrlParser : true, useUnifiedTopology : true})
