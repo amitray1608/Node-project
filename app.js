@@ -8,7 +8,8 @@ const blogRoutes = require('./routes/blogRoutes');
 
 // const { result } = require('lodash');
 
-const dbURI = 'mongodb+srv://clustername:password@amit.11gsz.mongodb.net/database?retryWrites=true&w=majority'
+//Akshit update with your mongo DB
+const dbURI = '';
 //register
 
 mongoose.connect(dbURI, {useNewUrlParser : true, useUnifiedTopology : true})
